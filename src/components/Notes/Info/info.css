@@ -1,0 +1,42 @@
+.info{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  height: 40px;
+  border-top: 1px rgb(236, 236, 236) solid;
+}
+
+.info-left, .info-right{
+  width: 110px;
+}
+
+.info-center{
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+}
+
+.info span{
+  line-height: 40px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.clear:hover{
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.active-page{
+ border: 1px gray solid;
+ border-radius: 5px;
+ padding: 5px;
+}
+
+.page-btn{
+  cursor: pointer;
+}
+
+.page-btn:hover{
+  font-weight: 500;
+}

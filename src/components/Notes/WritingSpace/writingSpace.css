@@ -1,0 +1,49 @@
+.writing-space-wrapper{
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom: 2px rgb(236, 236, 236) solid;
+  padding: 0 15px;
+}
+
+.writing-space-wrapper input{
+  width: 82%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+input::-webkit-input-placeholder{
+  font-style: italic;
+  color: rgb(230, 230, 230); 
+}
+
+.writing-space-wrapper img{
+  align-self: center;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  cursor: pointer;
+  opacity: 0.2;
+}
+
+.hide{
+  transform: rotate(180deg);
+}
+
+.writing-space-wrapper button{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: green;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.writing-space-wrapper button:hover{
+  font-weight: 500;
+}
